@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.panel{
+    position: relative;
+    
+}
+.img{
+    height: 500px;
+    width: 500px;
+    background: url("virat.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top : 90px;
+    left: 200px;
+}
+
+.panel img{
+    height: 590px;
+    width: 100vw;
+    background-size:auto;
+    background-attachment: fixed;   
+}
+
+.panel-content{
+    position: absolute;
+    top: 150px;
+    left: 600px; 
+    background: url("panel-content.png");
+    height: 150px;
+    width: 500px;
+    background-repeat: no-repeat;
+}
+
+.panel-content2{
+    position: absolute;
+    top: 350px;
+    left: 700px; 
+    background: url("panel-content2.png");
+    height: 50px;
+    width: 350px;
+    background-repeat: no-repeat;
+}
+.batrange{
+    display: grid;
+    place-items: center;
+}
+
+.batcontainer{
+   
+    width: 80vw;
+    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.batlist{
+    display: flex;
+    justify-content: space-evenly;
+}
+.batlist img{   
+    width: 400px;
+    height: 600px;
+    background-size: contain;
+}
+
+.batname{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+.batname h3{
+    background-color: red;
+    color: #fff;
+    padding: 8px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.kitrange{
+    display: grid;
+    place-items: center;
+}
+.kitcontainer{
+    width: 80vw;
+    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.kitlist{
+    display: flex;
+    justify-content: space-around;
+}
+.kitlist img{
+    width: 300px;
+    height: 300px;
+}
+.kitname{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.kitname h3{
+    background-color: red;
+    color: #fff;
+    padding: 8px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.batlist img ,.kitlist img:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.full-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 50px;
+    background-image: url(../home/virat.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+}
+.contact-title , .head{
+    background: #e02928;
+    color: #fff;
+    text-align: center;
+    border-radius: 7px;
+    padding: 10px;
+}
+#form{
+    background-color: #6b6b6b;
+    border-radius: 7px;
+}
+.input-field input, textarea{
+    margin-top: 10px;
+    width: 400px;
+    padding: 12px;
+    resize: none;
+}
+.form{
+    padding: 20px 15px;
+}
+#submit{
+    background-color: aqua;
+    font-weight: 700;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+
+}
+.contactdetails{
+    width: 400px;
+}
+.head{
+    margin-top: 45px;
+}
+.contents p{
+    line-height: 35px;
+}
+.contents{
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 7px;
+}

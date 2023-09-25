@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-img{
+    position: relative;
+}
+.bg-img img{
+    width: 100vw;
+    background-attachment: fixed;
+}
+.text{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    color: #fff;
+    font-size: 40px;
+    
+}
+.text h3{
+    text-shadow: 3px 3px 2px black;
+}
+
+.products{
+   background-color: #fff;
+    display: grid;
+    place-items: center;
+}
+.prodcuctlist{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 80vw;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    
+
+}
+.items img{
+    width: 300px;
+    height: 500px;
+}
+.batnames{
+    display: flex;
+    justify-content: space-evenly;
+}
+.batnames h3{
+    background-color: red;
+    color: #fff;
+    padding: 8px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}

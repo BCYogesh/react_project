@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.imgdesc img{
+    width: 400px;
+    height: 600px;
+}
+.containerdesc{
+    display: flex;
+    justify-content: space-evenly;
+}
+.desctitle h2{
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: red;
+}
+.desctitle h3{
+    color: red;
+    margin-bottom: 30px;
+}
+#desc .desclist{
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.679);
+}
+
+

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #eaeaea;
+}
+.outer-container{
+    display: flex;
+    padding: 70px 120px;
+    
+}
+
+.inner-container{
+    height: auto;
+    width: auto;
+    background-color: #676767;
+}
+.content{
+    display: inline-block;
+    border-top: 1px solid rgba(255, 255, 255, 0.861);
+ 
+}
+
+.heading h2{
+    color: #c1c0c0;
+}
+.heading h3{
+    color: #e02928;
+    
+}
+.content, .heading{
+    padding: 20px 30px;
+}
+.content p{
+    width: 300px;
+    color: #c1c0c0;
+    text-align: justify;
+}
+.locator{
+   
+    background-color: #676767;
+    width: 500px;
+}
+.main{
+    margin: 100px 0 0 80px;
+}
+.title{
+    background-color: #e02928;
+    width: 350px;
+}
+.title h2,
+.sub-locator label{
+    color: #fff;
+    text-align: center;
+}
+.sub-locator{
+    /* display: flex-wrap;
+    align-items: center; */
+    justify-content: center;
+    margin: 50px 0 0 40px;
+    
+}
+.input{
+    margin-top: 20px;
+}
+.city{
+    padding: 10px 15px;
+}
+.store-img img{
+    width: 250px;
+    margin-top: 100px;
+}
+.btn{
+    margin-top: 10px;
+}
+button{
+    padding: 12px 20px;
+    background-color: rgba(0, 0, 255, 0.794);
+    border-radius: 8px;
+    color: #fff;
+}
+.outer-container{
+    height: 600px;
+}
